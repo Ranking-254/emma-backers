@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Hii ni kimo cha navbar yako (20rem/h-20) */
+}
+
+@theme {
+  /* Bakery Colors */
+  --color-bakery-beige: #FAFAFA;
+  --color-bakery-gold: #D4A373;
+  --color-bakery-charcoal: #2D2D2D;
+
+  /* Bakery Fonts */
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Montserrat", sans-serif;
+}
+
+/* Base styles using our new variables */
+@layer base {
+  body {
+    @apply bg-bakery-beige text-bakery-charcoal antialiased;
+    font-family: var(--font-sans);
+  }
+}

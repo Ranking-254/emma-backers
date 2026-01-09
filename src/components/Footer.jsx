@@ -43,7 +43,7 @@ const Footer = () => {
             <div className="space-y-6">
               <div className="flex items-start gap-4 text-sm text-gray-300">
                 <MapPin size={18} className="text-bakery-gold flex-shrink-0" />
-                <p>123 Artisan Lane, Westlands<br/>Nairobi, Kenya</p>
+                <p>Makutano, Kyeni<br/>Embu, Kenya</p>
               </div>
               <div className="flex items-center gap-4 text-sm text-gray-300">
                 <Phone size={18} className="text-bakery-gold flex-shrink-0" />
@@ -60,7 +60,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-[0.2em] text-gray-500">
-          <p>© 2026 Emma's Bakery. Crafted with care in Nairobi.</p>
+          <p>© 2026 Emma's Bakery. Crafted with care and Love.</p>
           <div className="flex gap-8">
             <Link to="/about" className="hover:text-white">Privacy Policy</Link>
             <Link to="/about" className="hover:text-white">Terms of Service</Link>

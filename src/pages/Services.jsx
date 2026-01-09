@@ -42,7 +42,7 @@ const Services = () => (
 
         <div className="relative z-10">
           <a 
-            href="https://emma-driving-school.netlify.app" /* You will replace this with the real link after deployment */
+            href="https://emma-driving-school.vercel.app/" /*link to other services*/
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-bakery-charcoal px-10 py-5 rounded-full font-bold uppercase tracking-widest text-xs hover:bg-bakery-gold hover:text-white transition-all duration-300 shadow-2xl block text-center"

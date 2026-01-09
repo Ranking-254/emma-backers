@@ -4,7 +4,7 @@ const Contact = () => (
     <div className="grid md:grid-cols-2 gap-12 text-left">
       <div>
         <h3 className="font-bold uppercase tracking-widest text-xs mb-4">Location</h3>
-        <p className="text-gray-600 mb-8">123 Artisan Lane, Westlands<br/>Nairobi, Kenya</p>
+        <p className="text-gray-600 mb-8">Makutano, Kyeni<br/>Embu, Kenya</p>
         <h3 className="font-bold uppercase tracking-widest text-xs mb-4">Inquiries</h3>
         <p className="text-gray-600">hello@emmasbakery.co.ke<br/>+254 700 000 000</p>
       </div>
